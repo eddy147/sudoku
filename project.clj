@@ -3,7 +3,9 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [jonase/eastwood "0.2.1" :exclusions [org.clojure/clojure]]
+                 [org.clojure/core.logic "0.8.11"]]
   :main ^:skip-aot sudoku.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
