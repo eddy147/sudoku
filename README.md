@@ -1,6 +1,6 @@
 # sudoku
 
-FIXME: description
+This code is from the The Joy of Clojure book.
 
 ## Installation
 
@@ -8,32 +8,19 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
-Open up a REPL (gorilla)
+Open up a REPL (lein gorilla :port 8999)
 And run:
+
+```
 (time (-> example-board solve-brute-force prep print-board))
 (time (-> example-board solve-logically first prep print-board))
+```
 
 for a comparison between the brute force and the logical one.
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
