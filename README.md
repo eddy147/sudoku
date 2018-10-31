@@ -8,9 +8,12 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
+Open up a REPL (gorilla)
+And run:
+(time (-> example-board solve-brute-force prep print-board))
+(time (-> example-board solve-logically first prep print-board))
 
-    $ java -jar sudoku-0.1.0-standalone.jar [args]
+for a comparison between the brute force and the logical one.
 
 ## Options
 
